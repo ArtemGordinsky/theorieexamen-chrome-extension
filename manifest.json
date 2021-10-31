@@ -1,0 +1,27 @@
+{
+  "name": "Keyboard Control for Theorieexamen.nl",
+  "description": "Allows you to use your keyboard to go through tests faster (not affiliated with Theorieexamen.nl)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.theorieexamen.nl/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/img/logo_16.png",
+      "32": "/img/logo_32.png",
+      "48": "/img/logo_48.png",
+      "128": "/img/logo_128.png"
+    }
+  },
+  "icons": {
+    "16": "/img/logo_16.png",
+    "32": "/img/logo_32.png",
+    "48": "/img/logo_48.png",
+    "128": "/img/logo_128.png"
+  }
+}
