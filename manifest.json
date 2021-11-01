@@ -1,6 +1,6 @@
 {
   "name": "Keyboard Control for Theorieexamen.nl",
-  "description": "Allows you to use your keyboard to go through tests faster (not affiliated with Theorieexamen.nl)",
+  "description": "Go through your tests on Theorieexamen.nl faster using a keyboard instead of a mouse!",
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
